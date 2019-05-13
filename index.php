@@ -78,6 +78,7 @@ if(isset($_POST['submit'])) {
             ?>
             <div class="col-3">
             <img src=<?= $picture; ?> alt="truc" class="img-thumbnail">
+            <p><?= $picture; ?></p>
                 <form method="post">
                     <input type="hidden" value=<?= $picture; ?> name="picture">
                     <button name="delete">Supprimer</button>
